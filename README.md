@@ -37,14 +37,35 @@ The model achieved an **accuracy of approximately 87%**, providing reliable pric
 
 The model was tested with sample inputs, and predictions were visualized using scatter plots to display price distributions across neighborhoods. Additional visualizations such as histograms showed the distribution of prices per square foot across various areas, providing deeper insights into the Bangalore housing market.
 
-## 🚀 Getting Started
+## 🚀 Running the Project
 
-### Prerequisites
+#### 1. Clone the repository:
+      git clone https://github.com/yourusername/bangalore-house-price-prediction.git
+      cd bangalore-house-price-prediction
+#### 2. Run the Jupyter Notebook:
+   - Open the `house_price_prediction.ipynb` file in Jupyter Notebook to walk through the code and see predictions based on your inputs.
+#### 3. Prediction Function: 
+   - Use the `predict_price` function to get price predictions for specific areas with custom inputs for square footage, number of bathrooms, and bedrooms.
 
-Make sure you have the following libraries installed:
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+     ```bash
+      predict_price('Indira Nagar', 1000, 2, 2)
 
+## 🖼 Sample Output
 
+      predict_price('1st Phase JP Nagar', 1000, 2, 2)
+      # Output: ₹ 93.16 Lakh
 
+      predict_price('Indira Nagar', 1000, 2, 2)
+      # Output: ₹ 151.47 Lakh
 
+## 📊 Visualization
+Key visualizations in the project include:
+
+- Scatter plots for price per square foot.
+- Histograms for price distributions.
+
+## 🤝 Contributing
+Feel free to fork this project, open issues, or submit pull requests to enhance the project further.
+
+## 📝 License
+This project is licensed under the MIT License.
